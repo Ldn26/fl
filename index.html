@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page not found &middot; GitHub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="top">
+    <div id="bg-box">
+      <img id="bg" src="images/bg.jpg" width="940" height="415" alt="">
+    </div>
+
+    <div id="scene">
+      <div id="bubble">
+        <img id="bubble-img" src="images/error-text.png" width="271" height="249" alt="404 This is not the web page you are looking for">
+        <p id="msg" hidden></p>
+      </div>
+
+      <img id="octocat" src="images/octocat.png" width="188" height="230" alt="">
+      <img id="speeder" src="images/speeder.png" width="440" height="156" alt="">
+      <img id="octocat-shadow" src="images/octocat-shadow.png" width="166" height="49" alt="">
+      <img id="speeder-shadow" src="images/speeder-shadow.png" width="430" height="75" alt="">
+      <img id="building1" src="images/building-1.png" width="304" height="123" alt="">
+      <img id="building2" src="images/building-2.png" width="116" height="50" alt="">
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- search form -->
+    <form id="search" action="https://github.com/search" method="get" novalidate>
+      <label for="q">Find code, projects, and people on GitHub:</label>
+      <input type="text" name="q" id="q" autocomplete="off">
+      <input class="btn" type="submit" value="Search">
+      <p id="err" hidden>Veuillez saisir une recherche</p>
+    </form>
+
+    <div id="links">
+      <a href="https://support.github.com?tags=dotcom-404">Contact support</a> &mdash;
+      <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+      <a href="https://x.com/githubstatus">@githubstatus</a>
+    </div>
+
+    <a href="https://github.com" class="logo">
+      <img src="images/logo@2x.png" width="32" height="32" alt="GitHub">
+    </a>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
